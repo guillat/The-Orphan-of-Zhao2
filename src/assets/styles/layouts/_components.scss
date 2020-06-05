@@ -1,0 +1,64 @@
+/* ------------------------------------ *\
+  #BUTTON
+\ *------------------------------------ */
+
+.btn {
+  @apply py-1 px-6 rounded shadow-lg;
+}
+
+.btn-yellow {
+  @apply bg-yellow text-black;
+}
+
+.btn-yellow:hover {
+  @apply bg-darkYellow tracking-wide;
+}
+
+/* ------------------------------------ *\
+  #TABLE
+\ *------------------------------------ */
+
+.table {
+  @apply my-8;
+}
+
+.table td,
+th {
+  @apply text-black table-auto border-solid border-2 border-grey p-3;
+}
+
+.table th {
+  @apply text-left;
+}
+
+/* ------------------------------------ *\
+  #BLOCKQUOTE
+\ *------------------------------------ */
+
+.blockquote {
+  @apply w-1/2 border-l-8 border-grey text-2xl bg-lightGrey px-6 py-3 flex-1 my-12;
+}
+
+/* ------------------------------------ *\
+  #CARD
+\ *------------------------------------ */
+
+.card {
+  @apply w-64 border-solid border-2 border-grey shadow-2xl mx-2 text-black my-3;
+}
+
+.card-content {
+  @apply p-3;
+}
+
+.card-title {
+  @apply font-bold text-xl text-center;
+}
+
+.card-subtitle {
+  @apply text-sm font-normal text-darkGrey uppercase;
+}
+
+.card-text {
+  @apply mt-3;
+}
